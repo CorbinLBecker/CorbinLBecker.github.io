@@ -1,0 +1,196 @@
+/* nav */
+.navbar a{
+	font-family: 'Space Mono', monospace; 
+	font-size:large;
+	letter-spacing: 4px;
+	
+}
+.navbar a:hover{
+	color: #ff7cb5 !important;
+}
+.navbar{-webkit-box-shadow: 32px 17px 66px -6px rgba(0,0,0,0.39);
+-moz-box-shadow: 32px 17px 66px -6px rgba(0,0,0,0.39);
+box-shadow: 32px 17px 66px -6px rgba(0,0,0,0.39);
+margin-bottom: 5%;
+
+}
+
+
+
+
+p{	font-family: 'Raleway', sans-serif;
+	font-weight: 300;}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-bottom: 5%;
+	
+}
+h2:before, h2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 45%;
+    height: 2px;
+    content: '\a0';
+    background-color: black;
+    
+}
+h2:before {
+    margin-left: -45%;
+    text-align: right;
+}
+
+.page-header{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+.col p{
+	background-color: white;
+	border-radius: 25px;
+	margin: -5px;
+	width: 150px;
+	height: 100px;
+}
+body {
+		background-color: #a0c7dc;
+    padding-top: 65px; 
+}
+
+
+#TopPic {
+background-color: white;
+    border-radius: 25px;
+}
+img {
+	border-radius: 25px;
+}
+#MeDiv {
+	border-radius:25px;
+}
+
+
+#wavey {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay:  2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+#testy
+{
+	margin-bottom: -25%;
+	margin-top: -25%;
+}
+
+/*
+#TopPic {
+	padding-top: 10%;
+	padding-bottom: 10;
+}
+*/
+
+
+#swoosh{
+	    -webkit-transition:.2s ease-in-out;/* For Safari 3.1 to 6.0 */
+		transition: .2s ease-in-out;
+}
+
+#swoosh:hover {
+		
+	-webkit-tranform-delay: scale(1.1);/* For Safari 3.1 to 6.0 */
+		transform: scale(1.1);
+	}	
+
+/* cloud styling */
+
+
+
+#cloudleft{
+	position: absolute;
+	left:1%;
+}
+#cloudright{
+	position: absolute;
+	right:1%;
+}
+#skillclouds{
+	display:none;
+}
+#portfolioclouds{
+	display:none;
+}
+#meclouds{
+	display: none;
+}
+#contactclouds{
+	display: none;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+	margin-top: 10%;
+	margin-bottom: 20%;
+
+}
+
+
+
+/* portfolio */
+.caption {
+	margin-top: 12px;
+}
+div.thumbnail {
+	height: 350px;
+	
+}
+/* me */ 
+
+
+/* footer */
+#Booms {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  display:none;
+position: absolute;
+z-index: 2;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+.footer{
+	height: 100px;
+	position: relative;
+	background-color:#eff983 ;
+	  width: 100%;
+	  text-align: center;
+}
+
+/* breakpoibnts */
+@media (min-width: 576px) { ... }
+
+
+
+
+
+/* playoinmg */
